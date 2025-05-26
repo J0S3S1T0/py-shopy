@@ -12,7 +12,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from db.database import Base, SQLALCHEMY_DATABASE_URL
-from db.models import categoria, modelos, asesoria, usuario, servicio, rol, asesor
+from db.models import categoria, modelo, asesoria, servicio, asesor, historialAsesoria, tipoAsesoria, usuario, blogExperiencia, galeriaVehiculoModificado, accesorio, rol, vehiculo, marca
 
 
 # this is the Alembic Config object, which provides
